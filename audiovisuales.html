@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boucafe</title>
+    <link rel="shortcut icon" href="favicon avion.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background:#b4c6cb;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #307f86;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #307f86;
+        }
+        h2 {
+            padding: 10px;
+            margin: 20px;
+            color: #f5f6f8;
+            text-align: center;
+        }
+        div.txt{
+            
+            background-color: #9c9a9a;
+        }
+       
+        div.gallery {
+           display: flex;
+           justify-content:center;
+            float: left;
+        }
+
+        img{
+            padding:6px;
+            margin: 5px;
+            border-radius: 5%;
+        }
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+        img:hover{
+            border: 3px solid #2b2828;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>BOUCAFE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a class="active" href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <h2  style="color:#333;">FOTOS</h2>
+    <hr>
+     
+    <section>
+           
+            <div class="gallery">
+                <a href="/img/reloj pinamar.jpg" target="_blank"><img src="/img/reloj pinamar.jpg" alt="entrada" width="450px" height="300px"></a>
+                <a href="/img/pinamar playa.jpg" target="_blank"><img src="/img/pinamar playa.jpg" alt="playa" width="450px" height="300px"></a>
+                <a href="/img/pinamar bosque.jpg" target="_blank"><img src="/img/pinamar bosque.jpg" alt="bosque" width="450px" height="300px"></a>
+            </div>
+            <div class="txt"><h2>PINAMAR</h2> </div>
+        
+        
+            
+            <div class="gallery">
+                <a href="/img/ruta-del-vino botella y copa.jpg" target="_blank"><img src="/img/ruta-del-vino botella y copa.jpg" alt="botella viñedo" width="450px" height="300px"></a>
+                <a href="/img/Ruta-de-vinos living.jpg" target="_blank"><img src="/img/Ruta-de-vinos living.jpg" alt="viñedo" width="450px" height="300px"></a>
+                <a href="/img/termas_de_cacheuta.jpg" target="_blank"><img src="/img/termas_de_cacheuta.jpg" alt="termas" width="450px" height="300px"></a>
+            </div>
+        
+            <div class="txt"><h2>MENDOZA</h2></div>
+
+            
+            <div class="gallery">
+                <a href="/img/cataratas.jpg" target="_blank"> <img src="/img/cataratas.jpg" alt="catarata" width="450px" height="300px"></a>
+                <a href="/img/coati-iguazu.jpg" target="_blank"><img src="/img/coati-iguazu.jpg" alt="coati" width="450px" height="300px"></a>
+                <a href="/img/lancha cataratas.jpg" target="_blank"><img src="/img/lancha cataratas.jpg" alt="lancha" width="450px" height="300px"></a>
+            </div>
+            <div class="txt"><h2>MISIONES</h2></div>
+
+            
+            <div class="gallery">
+                <a href="/img/glaciar.jpg" target="_blank"><img src="/img/glaciar.jpg" alt="glaciar" width="450px" height="300px"></a>
+                <a href="/img/caminata glaciar.jpg" target="_blank"><img src="/img/caminata glaciar.jpg" alt="caminata" width="450px" height="300px"></a>
+                <a href="/img/calafate barco.jpg" target="_blank"><img src="/img/calafate barco.jpg" alt="bosque" width="450px" height="300px"></a>
+            </div>
+            <div class="txt"><h2>SANTA CRUZ</h2></div>
+    </section>
+    
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+</html>

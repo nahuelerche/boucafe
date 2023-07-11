@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boucafe</title>
+    <link rel="shortcut icon" href="favicon avion.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: #b4c6cb;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #307f86;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #307f86;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Boucafe</h1>
+        <nav>
+            <ul>
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" href="promociones.html">Promociones</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px; text-align: center;">Promociones</h2>
+    <hr>
+
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color:aquamarine;">
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <th>Provincia</th>
+            <th>Destino</th>
+            <th>Precio</th>
+
+            <tr>
+                <td>Bueno Aires</td>
+                <td>Pinamar</td>
+                <td>u$d 800</td>
+            </tr>
+
+            <tr>
+                <td>Mendoza</td>
+                <td>Ruta del vino</td>
+                <td>u$d 600</td>
+            </tr>
+
+            <tr>
+                <td>Misiones</td>
+                <td>Cataratas</td>
+                <td>u$d 900</td>
+            </tr>
+            
+            <tr>
+                <td>Santa Cruz</td>
+                <td>El Calafate</td>
+                <td>u$d 1200</td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+<footer class="footer">
+    <p>Derechos reservados &copy; 2023</p>
+</footer>
+</html>
+    
